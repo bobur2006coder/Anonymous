@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-top{
+    width: 80%;
+    margin: 50px auto ;
+
+
+}
+.div-top h2,p,form{
+    margin: 15px;
+}
+
+.div-top input{
+    width: 340px;
+
+}
+.div-top p{
+    color: red;
+    font-size: 23px;
+    font-weight: 100px;
+    font-family: sans-serif;
+}
+.div-top h2{
+    font-size: 30px;
+}
+.form-one{
+    font-family: sans-serif; 
+}

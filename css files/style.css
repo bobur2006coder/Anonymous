@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+                        /* nav qismi */
+.nav_in_img{
+    width: 200px;
+    height: 100px;
+}
+
+.nav_mark_div{
+    width: 100%;
+    background-color: rgba(17, 172, 224, 0.3);
+}
+
+.nav_mark{
+    color: rgb(5, 36, 85);
+}
+.nav__top , .play_market , .program, .store{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.play_icon{
+    width: 68px;
+    height: 40px;
+}
+
+.store_icon{
+    width: 68px;
+    height: 40px;
+}
+
+.a_icon{
+    text-decoration: none;
+}
+
+.play_market, .store{
+    background-color: rgba(208, 204, 204, 0.1);
+    width: 200px;
+    padding: 5px;
+    border-radius: 7px;
+}
+.play_market:hover{
+    background-color: rgba(208, 204, 204, 0.3);
+    transition: 0.4s ease-in-out;
+}
+.store:hover{
+    background-color: rgba(208, 204, 204, 0.3);
+    transition: 0.4s ease-in-out;
+}
+.nav_mark_div{
+    margin-top: 10px;
+    padding: 5px;
+}
+/* header qismi */
+.header_top{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header_img{
+    width: 300px;
+    height: 280px;
+}
+
+.text_a{
+    font-size: 14px;
+}
+
+.header_btn_one{
+    width: 270px;
+    height: 70px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color:  rgba(182, 219, 142, 1);
+    color: #ffffff;
+    border: none;
+}
+
+.header_info{
+    display: flex;
+    justify-content: center;
+    
+}
+.header_btn_one a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header_p{
+    font-size: 17px;
+}
+
+.header_btn_one:hover{
+    background-color:rgb(175, 235, 110) ;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* footer qismi */
+footer{
+    margin-top: 180px;
+    background-color: black;
+    color: #ffffff;
+}
+.footer_top{
+    display: flex; 
+    align-items: center;
+    gap: 280px;
+    justify-content: center;
+    
+}
+.footer_ul{
+    line-height: 35px;
+    margin: 15px;
+    list-style: none;
+    
+
+}
+.footer_list{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;    font-weight: 200;
+}
+
+.footer_a_list{
+    
+    color: white;
+}
+
+.img__see{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

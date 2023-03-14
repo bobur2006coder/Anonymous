@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px 25%;
+}
+.nav-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%
+}
+.nav-head img{
+    width: 25px;
+}

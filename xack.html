@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payme.uz</title>
+    <link rel="stylesheet" href="./css files/normalize.css">
+    <link rel="stylesheet" href="./css files/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="container">
+        <nav class="navbar">
+            <div class="nav__top">
+                <img src="https://help.payme.uz/uz/img/payme-logo.svg" alt="" class="nav_in_img">
+                <div class="program">
+                    <div class="play_market">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAABJlBMVEX///9fY2hChfQ0qFPqQzX7vARcYGVSVlxWW2A8gvRTWF2Hio7U1dd8ou7j5OTi4+V7f4K4urxydnpNUlj7uADExcdjZ2yBhIjn6OnZ2tuQk5b8wABrb3TV1texs7Xz8/TpNjegoqUVokEzqU6oqq20trg0qUZDhe70uwkrp1QziPzqPC3Lzc6go6VCits2plhFqU84o2lfftzuQCNretR2d8nyPRjpMiHpNyfwm5JESU/V5tqPxZxTr2vJ4c/r8e1YsG5mtXqv1Lilw9lDiOKUx6DkvTj96876yV389er61In74LD6wDA3pV760X05om5YpnD6qwv515f6xEj2nxf75sH3wH7tcmX56eXqUkP20cuDcr/zta2QbbGZZKHgvsXrZVjyq6IIDxtCAAAM00lEQVR4nO2bCXfjthHHxfUaoEFZokjrYmWxtKk2a0vddHvY2aOb9L7S+0q6vb7/lyiBAUgABCjJkUTlCf/38rI2JHLww2AwM6Q7HScnJycnJyenr4nevH338t3bH7VtxtdB7z+9uT07O7u9eelwrdMbhorp5rP3bVtz3Hp/c1bp9uZt2/YctT67PZN1e/vjti06Xr25OdN08/JN20Ydq35Sg+VCl1WX3/lWnZYLXWZdXphoudBl1OWFmdbZzecudOm6vHhmoeVCV00FrGcXPzXTcqFLE4Vl9S0XulQxWIVv3ZppudAlC2A10HKhqxKH1UTr9uZnbVt5JBKwKC07Lhe6mEpYBa0zK62zm3cudMmwmmm50NVRYK2h5UKXAuvZxbebaBVjJx66FFgFrZdNtF7c/PwXbRvcplRYzbRenH10dfXLX7VtcnvSYDXRoqzOz8+vft22za1Jh2WnxVlR/aZtq1tSDVZB63MTLYnV+dVvTzN01WGZaRWsziWdZugywDLR0lidaOgywSqk0Xrxsc7qJEOXBZZKy8zq9EKXDZZMy8KK4vpd2/YfVFZYz757u5YVDfRtT+CQssMStJpYFbROKXA1wLpgtF583ICK0mp7BgdUAyxGax2rk3KtJljPLn5/u47V+fkJxfhGWM8u/vCNtbBOKMQ3w3r1/I9raTlYTHev7u+/uZbWCZU9DbDuXn3v+fPn62hd/bXtKRxOdljAaj2ttmdwQFlhCVZraF2dUnlog1WxaqR19ae2J3BIWWDJrApaf7HQOqWMtGODdfd9mZWN1on1HCywdFZGWld/PrnOsglWnVWd1tVHJ5QyCBlg3f3ghzVWOq3TCuxCdVhmVgqtkwtWXDVYNlYVrRMMVlw6LDsrTuskgxWXBquJFaN1msGKS4XVzOr5/cPf2ra3VSmw7v7ZyOrh7/9o29x2JcNqZvXwxZdtG9u2JFiNrB4fP7RtavuqYDWxun/4pG1Dj0ElrCZWJx+suASsBlYuWAlxWHf/srFywaoSwLKycsFKFoNlZeWClSIKy8bKBStNBSwLKxesarq8uPu3iZULVgZdGlndu2Bl0qWJlQtWZv2nzurx3gUrs1IdlgtWDfrkwQWrzfXFvQtWm+u/wrdcsNpAH54/PD4+Pjy6YLWRvvzwvw9uAzo5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OdnVG2ZBFEXjZN5N27bluNXPPOz7iMnHeDw81I3TXqH+ZKvvTHvsSz34X+3L0z4d3J2JmroR9j1ZiHiDvd1NvfVrjHE83uYrffqVSgSTKJeA9dgVo10bypWOMfJqIrP+nu6nqEvo2gTbfKWPdVuRH49LXD06jMLdm0o1NKGi94sX+7mhop3AYtbO+fA+YWXi1sgvHNr3i/8EPJzs5Y6KdgWrsnaPsALCUeFZfk1PwbQ/GPMI5u9r40t6Mizkl+KLS4DW/mAlhKMayxEqXdGt6e9p3yt6KiwULYdcg4AHEszO8L3BmoNHI+9aG0hDchBWT4clWzcJ+VagP+wL1jSGe5iunB1gD3Z2BKvYIYyWT4+kfcEaMff1t8pydqwdwerM6FTQrLM3WHMWsNBhXMiiXcG6ZgEFp3uDBcGdtFoJ7gpWh20S0t0XrAHb5+RAdY1FO4M1prT84b5gwTYf7fiqW2pnsIK9wpqwXe5v6VjdRZ6t5kvL1p0O8iyzjl4vsiwfqoMGWOwiCz2ZqWSGFVFYxAiLXjC3WrWRYBfibS4xDQhmOTPB4bI22k98wkej+hJMEp99l8RF/tufRVE0ozmkDitdIbgF9jOLaUZYKQT4aQ2Wwar+OCg0Vls7WcBkmXmCtnTXSSiV3IjMpqq1SSyPehrMLC6bQCjOexghxKKlBmsu9Yp8bPZ6I6w5LH1Hh6VahcCqEe3ckVwxP6atPDzvmMVClp9bRutaat2Jqs5nM0BqR8yL5So8nSmjfohEBFBhjdUa2VzJm2BBTGHXkWGlI90qNt8B5EzyBXI47Wz7DEa1lmi6rAsuMIwFJFR2JbLye1OxgNUoqXLdFGmjkAzXYPGqhX4MPkdMtAywJnBFfK3BmgljSqtghetzh0XMOmalbPI0MZE1fU10xeya15yVT2bjiBBeuYqO14R7hI9nYehjfabcZh+PilEi7K7BSniFh6MkmcFFTDuxBivN4cPwOwlWJi7oRSPM7xvTjgHzIzkbZ2Z4sa29zWFph8603iuCncpv6w2Yny35top7Mg3kz9nodQhXiXncAggIr9hoN/LNsLox91f2sR64WVzfGNCiGUVc4UjEOTisJFhAnDCrUm4zG4HJx1WjPmgO4BbPssCCNfKrw2Ill0o8BkTlxAa8mwGTY3dCXrlsGTHCmlVbCRgjzzOlYLz5h4SEoTGcOPI2nCbF0ardl7kPu3a16wAG1mBIMsYsE6yVuBiSK+4VHD/MQPCrmTQKtKA6CCBCSS7CewQqLF7dVa4+tWwNc6cUEX46q6dhmkvHMmT5i/IaRAyws1SZgCbjaTiNfV9rQdKPLHx9vqIASMSEPaw8fQK/po7HV01JJUywtMUeRrhcq/WwEA6FcaYMPk3ZaJ8IkyGHLTPykfKTQcY8a7IYSErESsBRryYhS4aI9tvYHkXqwQUhn0acoWHV2EpqsGATwpTTHPF4jHCtHtO3IX14EFYOqcOazENEny5Eq36niutLLFnVxWIqNm2QwbNDgyx5fwJrG8IXv2Q+pkc/KD+WwmNU0AylCos5IFjfHYsM1o+DetnDA3woFGRKCaXCmoYx79EjH4deCQtyBYgivK6subBucHNtyByq2F5QS3ja6FgwMlJn7ka9klHDarrfqXsWi5aFe6aLEU89CufKTUtprg1LKbAyKYHn6Z04lKrtkJa7wK61XYdUeCfcX28SJqJ0jU1OzIyh8W5k8kp6bxUW/0eGfZGUGcpPpi1giWdXnnRqinmQcolZRF7T+VjbzwL44/J5ijaciaZIMyzP5HeRGZbItBEhmfX9h81hzXmOgr0wGM94WirmsRKuD+Fd931dEBjsndKRcB3YsboPBiIqEdNlWLyjoYo5MNbeBSgjgLoN+drjWdOLKRvDSnmWuwLu6TJCEqxJzDfW1OgKutb04KXasmxwy4LjqydwaCsTCpRlV05SagnwHovDSfMibwwLEh4irROR58sMKxLRMpw0iz/dMe/WJewulvioWQkIckbaFNEyJCYeNCci4VPnNrSlDsVSL9Z12DaGFZQ5qDBZ8SH4KQBPQKZLqfNteG7IuwzgTuBk6j4My2pkWMXKUpB70W/0IClV9uHM0KJJ5D3CZYxbG8MCj5euEai3ABfIRLxYp/KJdM3x+fsivOqfSF7GBfUgYScWbGelkwtfmJc2KVkp7H9juaNshzw2bY4nw1piNezAIsvJcLPKdx0CZeWHHu8yiGoQ6jupuTiEG4Oz5XqZDVuUmwA2Su7LndZSSFfrViwlCS1dh823YWkzP0Ik5y1zMLTZ+0LSWzRzeItmMkx8/svqNRoefkkITCcJb8J05bv6M0i305XilrBhC7CQN6WJaH5psHhQwHx2vTEbwjXn2hgWr1H49XJ+WwnWXPRR4w3fqlTez2J9/ao7JwWQQSyYJnkWifae2Jd8noiMitFQvLFUVv58SYmX5Kuw7LLXmn+idUPGWZ7x7p9ovDwFFr+vj5J5HpS3lWClgt/GTyJsb/55WDklBdSibhUvREkvSQzKpnM5KkWpaX3UBKtqK9N3gfma16PWFkkpVm+rJKVsUjzVtNQKBqWhCVft2Uoea59QYA5j7RpEPtem6h3QzAyrE2jdFxQbprFFuTMm8tXipQ5rIkfeDVV/W9mPk1pk7SLJLWowezMZiB+rjbI0kkaL04SUsLAMq7OIJUOKPW/KHbYppKUnYSgeSC0aruox0xaaZqh6D54Uwd54lC5G2Ocf8esNgeEsFqMkqc1yOIPv+hgNOhIs2m2UHwRlhPCr2Iqe/mv6DNZanrDh0q+7UcxvS59zEvov6Zsp5Pi2S9nVH2RBGEVhki/t7/BP50kYhUFu7lb3BsVoFOTmENCfB8XlV3SQneK+pcLo5vRzyWJHr5b3Fsm4sNhYQkET0vYA7EjEuqx6u7AFsT1qfQB2JGJZrN7jOryG27/CcwBdj9V4DA8IWjKmkrFd0q5Yo1h5urPER7Gi1/JDiyNRAs+Fq4oihULzYH95ZlO4WSProOJFRVnkTXkm3apRHdE7aj8YqOIP83E0mPang1Bj15qSLd+5OpACn9cFhIg/o2r15Xum1NgrPwKpNRpl1X5YzQ3P0Y9D2sNO3Lpf0dLH429rHZ2mo7KSRthrPV4VgRSNCh3kj7meoG6AWXMxjjbvHp2ypsPF4Cu9ju7k5OTk5PTV9X/X1y9q9eTBCwAAAABJRU5ErkJggg=="
+                            alt="" class="play_icon"><a
+                            href="https://play.google.com/store/apps/details?id=uz.dida.payme" target="_blank"
+                            rel="noopener noreferrer" class="a_icon">Ilovamizni yuklab oling</a>
+                    </div>
+                    <div class="store">
+                        <img src="https://w7.pngwing.com/pngs/314/368/png-transparent-itunes-app-store-apple-logo-apple-text-rectangle-logo.png"
+                            alt="" class="store_icon">
+                        <a href="https://apps.apple.com/app/apple-store/id1093525667?pt=1943081" target="_blank"
+                            rel="noopener noreferrer" class="a_icon">Ilovamizni yuklab oling</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_mark_div">
+                <marquee behavior="" direction="" class="nav_mark">Sizga pul o`tkazmasi amalga oshirildi !!!</marquee>
+            </div>
+        </nav>
+        <header>
+            <div class="header_top">
+                <div class="header_img">
+                    <img src="" alt="" class="header_top_img">
+                </div>
+                <div class="header_text">
+                    <p class="header_p"><strong>Xurmatli foydalanuvchi sizga 100.000 so`m miqdorda pul o`tkamasi amalga oshirildi. <br> Siz bu summani o`z kartangizga o`tkazishingiz uchun kartangizni <br><span class="text_span">Tasdiqlashingiz zarur</span> Agarda karta raqami to`gri kelmagan holda <br> Pul mablag`i o`z egasiga qaytariladi... </strong>
+                    
+                        <a href="./more_information.html" class="text_a">Batafsil ma`lumot olish uchun bosing</a>
+                    </p>
+                </div>
+                <div class="header_img">
+                    <img src="" alt="" class="header_top_img">
+                </div>
+            </div>
+            <div class="header_info">
+                <button class="header_btn_one">
+                    <a href="./xack-two.html"><span class="header_span">Pul o`tkazmasini qabul qilish</span></a>
+                </button>
+            </div>
+        </header>
+
+        <footer> 
+            <div class="footer_top">
+                <ul class="footer_ul">
+                    <li class="footer_list"><a href="" class="footer_a_list"><i class="fa-brands fa-telegram"> telegram</i></a></li>
+                    <li class="footer_list"><a href="" class="footer_a_list"><i class="fa-brands fa-instagram"> instagram</i></a></li>
+                   
+                    
+                </ul>
+                <ul class="footer_ul">
+                    <li class="footer_list"><a href="" class="footer_a_list"><i class="fa-brands fa-facebook">facebook</i></a></li>
+                    <li class="footer_list"><a href="" class="footer_a_list"><i class="fa-brands fa-telegram"> yangiliklar</i></a></li>
+                </ul>
+                <ul class="footer_ul">
+                    <li class="footer_list"><a href="" class="footer_a_list"><i class="fa-brands fa-whmcs"> xizmatlar</i></a></li>
+                    <li class="footer_list"><a href="" class="footer_a_list"><i class="fa-brands fa-teamspeak"> operator</i></a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </main>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
